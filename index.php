@@ -183,27 +183,7 @@
       $('#manage_my_account').click(function(){
           uni_modal("Manage Account",'signup.php');
       })
-    // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyDYUlnB8VVTlKHLomqMgLBSK8x44DUKy_A",
-  authDomain: "online-book-store-c4d78.firebaseapp.com",
-  projectId: "online-book-store-c4d78",
-  storageBucket: "online-book-store-c4d78.appspot.com",
-  messagingSenderId: "1055247745975",
-  appId: "1:1055247745975:web:2d0d2a1d205f3357965e32",
-  measurementId: "G-EC5BM2ETHQ"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+   
     </script>
     <?php $conn->close() ?>
 
